@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
-$dbname = 'a30112614_SCP_db'; 
-$username = 'a30112614_Ujjawal'; 
-$password = 'scpfinalproject';     
+$dbname = 'scp_db';
+$username = 'root';
+$password = '';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);
